@@ -1,10 +1,15 @@
 .task1 .item {
+  position: relative;
+  left: 200px;
+  top: 150px;
 }
 
 .task2 .item {
+  position: relative;
 }
 
 .task3 .item {
+  position: static;
 }
 
 .container4 {
@@ -14,6 +19,7 @@
   width: 1000px;
 }
 .task4 .item {
+
 }
 
 .task5 .item1 {
@@ -26,15 +32,21 @@
 }
 
 .task6 .item {
+  float: left;
 }
 
 .task7 .item {
+  float: right;
 }
 
 .task8 .item1 {
+  float: none;
 }
 .task8 .item2 {
   height: 120px;
+  float: none;
+  position: relative;
+  left: 670;
 }
 
 .task8 p {
@@ -42,15 +54,21 @@
 
 .task9 .item1 {
   height: 200px;
+  float: left;
 }
 .task9 .item2 {
+  float: none;
+  position: relative;
+  left: 670;
 }
 .task9 p {
 }
 
 .task10 .item1 {
+  float: none;
 }
 .task10 .item2 {
+  float: right;
 }
 .task10 p {
 }
@@ -68,6 +86,7 @@
 .task13 .img-item {
   height: 100%;
   width: 100%;
+  background-size: cover;
 }
 
 .task14 .img-item {
@@ -79,12 +98,15 @@
   height: 100%;
   width: 100%;
   object-fit: none;
+  background-position-x: right;
+  background-position-y: center;
 }
 
 .task16 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  background-position: left;
 }
 
 .task17 .img-item {
@@ -106,13 +128,16 @@
 }
 
 .task20 {
+  user-select: none;
 }
 
 .task21 {
 }
 
 .task22 {
+  cursor: wait;
 }
 
 html {
+  scroll-behavior: smooth;
 }
